@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+body{
+ background: rgb(50,14,13);
+background: linear-gradient(90deg, rgba(50,14,13,1) 0%, rgba(53,53,78,1) 35%, rgba(40,36,11,1) 100%);
+}
+
+.galeri{
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  box-shadow: inset 0 0 0 0 #54b3d6;
+
+}
+.galeri:hover{
+  cursor: grab;
+  color: #fff;
+  box-shadow: inset 200px 0 0 0 #54b3d6;;
+}
+
+.galeri img{
+  scale: calc(var(--active, 0) + 0.5);
+  filter: blur(calc((1 - var(--active, 0)) * 1rem));
+  transition: scale calc(((1 - var(--active, 0)) + 0.2) * 1s), filter calc(((1 - var(--active, 0)) + 0.2) * 1s);
+}
+.card{
+  background: rgb(50,14,13);
+background: linear-gradient(90deg, rgba(50,14,13,1) 0%, rgba(53,53,78,1) 35%, rgba(40,36,11,1) 100%);
+}
+.form{
+background: linear-gradient(90deg, rgba(246,187,7,1) 0%, rgba(62,62,40,1) 44%, rgba(255,225,190,1) 100%);
+}
+.ul{
+  background: rgb(22,16,18,1);
+  background: linear-gradient(90deg, rgba(50,14,13,1) 0%, rgba(53,53,78,1) 35%, rgba(40,36,11,1) 100%);
+
+}
+
+.saluran{
+  background: rgb(22,16,18,1);
+  background: linear-gradient(90deg, rgba(50,14,13,1) 0%, rgba(53,53,78,1) 35%, rgba(40,36,11,1) 100%);
+
+}
+.footer{
+  background: rgb(22,16,18,1);
+  background: linear-gradient(90deg, rgba(50,14,13,1) 0%, rgba(53,53,78,1) 35%, rgba(40,36,11,1) 100%);
+}
