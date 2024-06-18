@@ -9,4 +9,4 @@ Membuat Website Game Topup Dengan CodeIgniter
 Masih tahap pengembangan oleh LieurCoding 
 Trakteer Cendol Kang
 
-<a href="https://trakteer.id/muhamad%20darussalam/link">TRAKTEER KOPI</a>
+<a href="https://trakteer.id/muhamad%20darussalam/link">TRAKTEER </a>
